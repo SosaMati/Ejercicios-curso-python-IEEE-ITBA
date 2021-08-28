@@ -10,7 +10,7 @@ Luego se reciben cierta cantidad de letras, una por línea, sin repetir. (por de
 Una vez que se haya adivinado la palabra del ahorcado, ya no se recibirán más letras. Su tarea es determinar la cantidad de intentos que fueron necesarios para adivinar la palabra completa, e imprimir ese número.
 """
 
-adivinar = input("Ingrese una palabra que se debera adivinar: ")
+adivinar = input("Ingrese una palabra: ")
 lista = list(set(adivinar))
 intentos = 0
 
